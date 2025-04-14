@@ -1,0 +1,29 @@
+name: udacity-car-cvi-mac
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - flask
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - numpy
+  - opencv
+  - h5py
+  - protobuf
+  - jupyter
+  - pip
+  - pip:
+      - tensorflow-macos==2.10.0 # Best version for M1/M2 (closest to 2.3, stable)
+      - eventlet==0.25.1
+      - flask-socketio==3.3.1
+      - python-socketio==4.6.1
+      - python-engineio==3.13.2
+      - dnspython==1.16.0
+      - imageio==2.35.1
+      - imgaug==0.4.0
+      - networkx==3.1
+      - pywavelets==1.4.1
+      - scikit-image==0.21.0
+      - shapely==2.0.7
+      - tifffile==2023.7.10
