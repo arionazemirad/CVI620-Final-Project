@@ -108,9 +108,8 @@ The model was trained for 50 epochs with:
 
 1. Clone this repository:
 
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   ```bash[
+   git clone https://github.com/arionazemirad/CVI620-Final-Project
    ```
 
 2. Create and activate a new conda environment:
